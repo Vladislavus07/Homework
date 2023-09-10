@@ -26,26 +26,27 @@ int itc_skv(int num)
 {
     if (num>=0)
     {
-        return num*b;
+        return num*num;
     }
     return -1;
 }
 
-int itc_spr(int a, int b)
+int itc_spr(int num1, int num2)
 {
-    if(a>=0 and b>=0)
+    if(num1>=0 and num2>=0)
     {
-        return a*b;
+        return num1*num2;
     }
     return -1;
 }
 
 int itc_str(int a, int b, int c)
 {
+    int d,p;
     if(a>=0 and b>=0 and c>=0)
     {
-        d=(a+b+c)/2
-        return itc_sqrt(p*(p-a)(p-b)(p-c));
+        d=(a+b+c)/2;
+        return itc_sqrt(p*(p-a)*(p-b)*(p-c));
     }
     return -1;
 }
