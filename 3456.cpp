@@ -4,6 +4,7 @@ using namespace std;
 
 double itc_scir(int radius)
 {
+    int a;
     if(a>=0)
     {
         return 3.14*double(a)*double(a);
