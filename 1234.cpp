@@ -21,9 +21,9 @@ int itc_abs(int num)
     return num;
 }
 
-double itc_fabs(int num)
+double itc_fabs(double num)
 {
-    if (num<0)
+    if (num<double(0))
         {
             num=num*-1;
         }
