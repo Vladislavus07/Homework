@@ -13,6 +13,10 @@ double itc_fmin(double num1, double num2)
 
 int itc_sqrt(int num)
 {
+    if (num == 0)
+    {
+        return 0;
+    }
     for (int i = 0; i<num; i++){
         if(num-i*i==0)
         {
