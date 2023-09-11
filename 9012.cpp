@@ -37,7 +37,7 @@ int itc_skv(int num)
 
 int itc_spr(int num1, int num2)
 {
-    if(num1>=0 and num2>=0)
+    if(num1>0 and num2>0)
     {
         return num1*num2;
     }
@@ -47,7 +47,7 @@ int itc_spr(int num1, int num2)
 int itc_str(int a, int b, int c)
 {
     int d,p;
-    if(a>=0 and b>=0 and c>=0)
+    if(a>0 and b>0 and c>0)
     {
         d=(a+b+c)/2;
         return itc_sqrt(p*(p-a)*(p-b)*(p-c));
