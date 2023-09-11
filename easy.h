@@ -6,7 +6,7 @@ using namespace std;
 void itc_name();
 void itc_fio();
 int itc_abs(int num);
-double itc_fabs(int num);
+double itc_fabs(double num);
 int itc_revnbr(int num);
 
 bool itc_iseven(int num);
