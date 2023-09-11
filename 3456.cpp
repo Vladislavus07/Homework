@@ -2,12 +2,11 @@
 
 using namespace std;
 
-double itc_scir(int radius)
+double itc_scir(int num)
 {
-    int a;
-    if(a>0)
+    if(num>0)
     {
-        return 3.14*double(a)*double(a);
+        return 3.14*double(num)*double(num);
     }
     return -1;
 }
