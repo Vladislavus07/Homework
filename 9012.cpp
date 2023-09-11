@@ -28,7 +28,7 @@ int itc_sqrt(int num)
 
 int itc_skv(int num)
 {
-    if (num>=0)
+    if (num>0)
     {
         return num*num;
     }
