@@ -1,5 +1,7 @@
 #ifndef EASY_H_INCLUDED
 #define EASY_H_INCLUDED
+#include<iostream>
+using namespace std;
 
 void itc_name();
 void itc_fio();
