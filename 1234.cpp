@@ -23,7 +23,7 @@ int itc_abs(int num)
 
 double itc_fabs(double num)
 {
-    if (num<double(0))
+    if (num<0)
         {
             num=num*-1;
         }
