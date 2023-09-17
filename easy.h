@@ -22,7 +22,7 @@ int itc_str(int a, int b, int c);
 
 double itc_scir(int radius);
 double itc_pow(int num, int step);
-bool itc_inpositive(int num);
-bool itc_inpositive_d(int num);
+bool itc_ispositive(int num);
+bool itc_ispositive_d(int num);
 
 #endif // EASY_H_INCLUDED
