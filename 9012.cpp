@@ -53,7 +53,7 @@ int itc_str(int a, int b, int c)
     double p;
     if(a + b > c && a + c > b && b + c > a)
     {
-        p=(a+b+c)/2;
+        p=(a+b+c)/double(2);
         return itc_sqrt(p*(p-a)*(p-b)*(p-c));
     }
     return -1;
