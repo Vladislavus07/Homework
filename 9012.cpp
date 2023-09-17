@@ -51,7 +51,7 @@ int itc_spr(int num1, int num2)
 int itc_str(int a, int b, int c)
 {
     int p;
-    if(a>0 and b>0 and c>0)
+    if(a + b > c && a + c > b && b + c > a)
     {
         p=(a+b+c)/2;
         return itc_sqrt(p*(p-a)*(p-b)*(p-c));
