@@ -35,7 +35,7 @@ double itc_pow(int num, int step)
     }
 }
 
-bool itc_inpositive(int num)
+bool itc_ispositive(int num)
 {
     if(num>=0)
     {
@@ -44,7 +44,7 @@ bool itc_inpositive(int num)
     return false;
 }
 
-bool itc_inpositive_d(int num)
+bool itc_ispositive_d(int num)
 {
     if(num>=0)
     {
