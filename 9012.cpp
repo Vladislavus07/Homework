@@ -50,7 +50,7 @@ int itc_spr(int num1, int num2)
 
 int itc_str(int a, int b, int c)
 {
-    int p;
+    double p;
     if(a + b > c && a + c > b && b + c > a)
     {
         p=(a+b+c)/2;
