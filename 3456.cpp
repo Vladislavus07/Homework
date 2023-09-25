@@ -44,7 +44,7 @@ bool itc_ispositive(int num)
     return false;
 }
 
-bool itc_ispositive_d(int num)
+bool itc_ispositive_d(double num)
 {
     if(num>=0)
     {
